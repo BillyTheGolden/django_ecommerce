@@ -17,7 +17,7 @@ def about_page(request):
         'content': 'Bem-vindo à página sobre.'
     }
 
-    return render(request, "about_page.html", context)
+    return render(request, "about/about_page.html", context)
 
 
 def contact_page(request):
@@ -26,4 +26,4 @@ def contact_page(request):
         'content': 'Bem-vindo à página de contato.'
     }
 
-    return render(request, "contact_page.html", context)
+    return render(request, "contact/contact_page.html", context)
